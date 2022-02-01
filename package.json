@@ -1,0 +1,15 @@
+{
+  "name": "npkg-mixtiles",
+  "version": "1.0.0",
+  "description": "mixtiles integration as natura package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push":"node ../natura-pkg  -f index.js -n mixpanel --token eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkZS5uYXR1cmEuZGV2Iiwic3ViIjoiYXV0aDB8NjFjOGMxNDM3OGI0YmQwMDZhYzY0NjAyIiwiYXVkIjpbImh0dHBzOi8vd3d3Lm5hdHVyYS5kZXYvYXBpIl0sImlhdCI6MTY0MzU0MTEwNSwiZXhwIjoxNjQ2MTMzMTM1fQ.NUbly730R7d1UW0jNE8z6K_WhOVNV7Iqqmucx0Zx-KMcdLnt5H2p-aBELwYUkInWvuMKB7XU_OJxi2h2gS0BIFAOGUJLydjaS4IhgJN2BfBRLKlbqLPALkZHXqXzrZPtzTumyM6a0ARiR9rwsNsdLDFkynP7Zmj1YtJGLIkz-Yo"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mixpanel-browser": "^2.43.0"
+  }
+}
